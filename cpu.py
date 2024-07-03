@@ -24,10 +24,10 @@ def afficher_informations_systeme():
 
 def envoyer_email(destinataire, sujet, contenu):
     # Paramètres du serveur SMTP
-    serveur_smtp = 'node218-eu.n0c.com'
-    port_smtp = 587
-    utilisateur_smtp = 'votre mail proffesionnel'
-    mot_de_passe_smtp = 'mot de passe'
+    serveur_smtp = 'mail.sfd-drc.com'
+    port_smtp = 465
+    utilisateur_smtp = 'elielynx@sfd-drc.com'
+    mot_de_passe_smtp = '1234elielynx'
 
     # Création de l'objet EmailMessage
     message = EmailMessage()
